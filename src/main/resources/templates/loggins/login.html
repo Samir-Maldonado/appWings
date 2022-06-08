@@ -1,0 +1,41 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+        
+        <link rel="stylesheet" href="css/login.css"/>
+      
+        </head>
+    <body>
+        <div class="modal-dialog text-center">
+            <div class="col-sm-8 main-section">
+                <div class="modal-content">
+                    <div class="col-12 user-img">
+                        <img src="imgs/wingslogo.png"> 
+                    </div>
+                    <form class="col-12">
+                        <div class="form-group" id="user-group"> 
+                            <input type="text" class="form-control" placeholder="Usuario" id="user"/>
+                        </div>
+                        <div class="form-group" id="contrasena-group">
+                            <input type="password" class="form-control" placeholder="Contraseña" id="contra" />  
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="login()"><i class="fas fa-sign-in-alt"></i> Ingresar</button>
+                    </form>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+        <script src="js/funciones.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
+       
+    </body>
+</html>
