@@ -9,8 +9,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap"/>
-
-
     </head>
     <body>
 
@@ -20,8 +18,9 @@
             <!-- Navbar  -->
             <nav class="navbar navbar-expand-lg fixed-top ">
                 <div class="container">
-                    <img src="imgs/logo.png" alt=""/>
-
+                    
+                        <img src="imgs/logo.png" alt=""/>
+                    
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -38,7 +37,7 @@
                             </li>
 
                             <li class="nav-item">
-                                <a class="nav-link ">Negocios</a>
+                                <a class="nav-link " th:href="@{/dash}">Dashboard</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link ">Eventos</a>
@@ -185,6 +184,6 @@
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/5.5.2/bootbox.min.js"></script>
-
+ 
     </body>
 </html>
